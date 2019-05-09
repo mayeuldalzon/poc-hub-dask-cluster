@@ -2,7 +2,7 @@
     "kind": "Template",
     "apiVersion": "template.openshift.io/v1",
     "metadata": {
-        "name": "jupyterhub2",
+        "name": "jupyterhub",
         "annotations": {
             "openshift.io/display-name": "JupyterHub (KeyCloak+Dask)",
             "iconClass": "icon-python",
@@ -27,7 +27,7 @@
         },
         {
             "name": "NOTEBOOK_REPOSITORY_URL",
-            "value": "https://github.com/jupyter-on-openshift/poc-hub-dask-cluster.git",
+            "value": "https://github.com/mayeuldalzon/poc-hub-dask-cluster.git",
             "required": true
         },
         {
