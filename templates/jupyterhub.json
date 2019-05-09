@@ -165,7 +165,7 @@
         },
         {
             "kind": "RoleBinding",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-rb-edit",
                 "labels": {
