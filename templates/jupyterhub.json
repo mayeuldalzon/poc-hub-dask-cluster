@@ -2,7 +2,7 @@
     "kind": "Template",
     "apiVersion": "template.openshift.io/v1",
     "metadata": {
-        "name": "jupyterhub",
+        "name": "jupyterhub2",
         "annotations": {
             "openshift.io/display-name": "JupyterHub (KeyCloak+Dask)",
             "iconClass": "icon-python",
