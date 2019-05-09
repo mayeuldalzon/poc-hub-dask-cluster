@@ -1,6 +1,6 @@
 {
     "kind": "Template",
-    "apiVersion": "v1",
+    "apiVersion": "template.openshift.io/v1",
     "metadata": {
         "name": "jupyterhub",
         "annotations": {
@@ -266,7 +266,7 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jupyter-on-openshift/poc-hub-dask-cluster.git"
+                        "uri": "https://github.com/mayeuldalzon/poc-hub-dask-cluster.git"
                     },
                     "contextDir": "jupyterhub"
                 },
