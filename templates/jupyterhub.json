@@ -184,7 +184,7 @@
         },
         {
             "kind": "ImageStream",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-s2i",
                 "labels": {
@@ -194,7 +194,7 @@
         },
         {
             "kind": "BuildConfig",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-s2i",
                 "labels": {
@@ -236,7 +236,7 @@
         },
         {
             "kind": "ImageStream",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-img",
                 "labels": {
@@ -247,7 +247,7 @@
 
         {
             "kind": "BuildConfig",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-img",
                 "labels": {
@@ -288,7 +288,7 @@
             }
         },
         {
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "kind": "Secret",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-pgsql",
@@ -302,7 +302,7 @@
         },
         {
             "kind": "DeploymentConfig",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}",
                 "labels": {
@@ -488,7 +488,7 @@
         },
         {
             "kind": "Service",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}",
                 "labels": {
@@ -518,7 +518,7 @@
         },
         {
             "kind": "Route",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}",
                 "labels": {
@@ -546,7 +546,7 @@
 
         {
             "kind": "PersistentVolumeClaim",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-database",
                 "labels": {
@@ -565,7 +565,7 @@
             }
         },
         {
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "kind": "DeploymentConfig",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-database",
@@ -681,7 +681,7 @@
         },
         {
             "kind": "Service",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-database",
                 "labels": {
@@ -706,7 +706,7 @@
 
         {
             "kind": "ImageStream",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-notebook-s2i",
                 "labels": {
@@ -716,7 +716,7 @@
         },
         {
             "kind": "BuildConfig",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-notebook-s2i",
                 "labels": {
@@ -770,7 +770,7 @@
         },
         {
             "kind": "ImageStream",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-notebook-img",
                 "labels": {
@@ -780,7 +780,7 @@
         },
         {
             "kind": "BuildConfig",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${JUPYTERHUB_NAME}-notebook-img",
                 "labels": {
@@ -833,7 +833,7 @@
         },
         {
             "kind": "ImageStream",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}-s2i",
                 "labels": {
@@ -854,7 +854,7 @@
         },
         {
             "kind": "ImageStream",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}-img",
                 "labels": {
@@ -906,7 +906,7 @@
         },
         {
             "kind": "DeploymentConfig",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}",
                 "labels": {
@@ -1022,7 +1022,7 @@
         },
         {
             "kind": "Service",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}",
                 "labels": {
@@ -1052,7 +1052,7 @@
         },
         {
             "kind": "Route",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}",
                 "labels": {
@@ -1079,7 +1079,7 @@
         },
         {
             "kind": "PersistentVolumeClaim",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}-database",
                 "labels": {
@@ -1098,7 +1098,7 @@
             }
         },
         {
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "kind": "DeploymentConfig",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}-database",
@@ -1214,7 +1214,7 @@
         },
         {
             "kind": "Service",
-            "apiVersion": "v1",
+            "apiVersion": "authorization.openshift.io/v1",
             "metadata": {
                 "name": "${KEYCLOAK_NAME}-database",
                 "labels": {
